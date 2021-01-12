@@ -29,6 +29,7 @@ function App() {
     const updateData = (value, index) => {
         console.log(value, index);
         const newData = [...dataTask]
+        console.log(newData);
         const task = {
             ...dataTask[index],
             title : value,

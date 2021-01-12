@@ -19,6 +19,7 @@ function Task(props) {
   const [inputValue, setInputValue] = useState({value: '', index: 0});
 
   const getValue = (value, index) => {
+    console.log(value, index)
     setInputValue({value: value, index: index});
   }
 
