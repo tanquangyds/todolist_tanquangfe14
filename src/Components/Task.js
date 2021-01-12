@@ -16,7 +16,7 @@ function Task(props) {
   } = props;
 
   const [isEditting, setIsEditting] = useState(false);
-  const [inputValue, setInputValue] = useState({value: '', index: 0});
+  const [inputValue, setInputValue] = useState({value: title, index: index});
 
   const getValue = (value, index) => {
     console.log(value, index)
