@@ -1,0 +1,36 @@
+.task {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    background-color: rgb(212, 175, 162);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.task:nth-child(2n+1) {
+    background-color: rgb(139, 175, 118);
+}
+.last-task {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.task-input {
+    display: flex;
+    align-items: flex-start;
+}
+.save {
+    margin: 0;
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 999px;
+}
+
+.title-content {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
