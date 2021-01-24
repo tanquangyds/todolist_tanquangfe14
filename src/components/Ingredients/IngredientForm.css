@@ -1,0 +1,34 @@
+.ingredient-form {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.input-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.form-control {
+  width: 80%;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: 2px solid #2501FF;
+  border-radius: 5px;
+}
+
+.ingredient-form__actions button {
+  font-size: 1rem;
+  padding: 2px 5px;
+  margin: 0;
+}

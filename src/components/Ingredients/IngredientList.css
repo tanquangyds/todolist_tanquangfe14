@@ -1,0 +1,56 @@
+.ingredient-list {
+  width: 90%;
+  margin: auto;
+}
+
+.ingredient-list h2 {
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.ingredient-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredient-list li {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+}
+
+.status-button {
+  margin-left: auto;
+}
+
+.form-change {
+  min-width: 200px;
+}
+
+.form-input {
+  height: 30px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  border-radius: 3px;
+}
+
+.form-button {
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 4px;
+  background-color: #FF2058;
+  padding: 2px 8px;
+  color: white;
+  font-size: inherit;
+}
+
+
+.delete-button {
+  margin-left: 20px;
+  cursor: pointer;
+}
